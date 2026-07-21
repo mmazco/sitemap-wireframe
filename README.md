@@ -4,7 +4,7 @@ A working Lo-fi, black & white wireframe — a sitemap + homepage prototype expl
 
 **View it live:** https://mmazco.github.io/developers-sitemap-wireframe/
 
-Or download `stellar-developers-page-wireframe.html` and open it in any browser — no build, no dependencies, one self-contained file. (Opening the file on github.com shows the source code, not the page.)
+Or download `stellar-developers-page-wireframe.html` and open it in any browser. (Opening the file on github.com shows the source code, not the page.)
 
 **How to read it**
 
