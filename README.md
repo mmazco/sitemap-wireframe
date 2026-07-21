@@ -1,4 +1,4 @@
-# /developers sitemap-wireframe
+# (/developers) sitemap-wireframe
 
 A working Lo-fi, black & white wireframe — a sitemap + homepage prototype exploration for a Stellar developer frontend (stellar.org/developers)
 
