@@ -97,6 +97,9 @@
   h1.wf{font-size:clamp(20px,2.6vw,27px); line-height:1.3; letter-spacing:-.01em; margin:0 0 14px; font-weight:600; white-space:nowrap;}
   h2.wf{font-size:20px; line-height:1.3; margin:0 0 8px; font-weight:600; white-space:nowrap;}
   .tagline{color:var(--muted); margin:0 0 22px;}
+  .sublabel{font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin:30px 0 -8px;}
+  .legend{font-size:11px; color:var(--mut2); margin-top:10px; line-height:1.7;}
+  .legend b{color:var(--muted); font-weight:600;}
 
   /* draft tag — real placeholder copy, editable */
   .draft{
@@ -358,19 +361,23 @@
           <p class="eyebrow">03 — connect</p>
           <h2 class="wf">Build on money that already moves <span class="draft">draft</span></h2>
           <span class="slot"><b>✎ connect.intro</b> — 1–2 sentences: plug into assets, ramps and rails that exist — don’t rebuild the money layer or carry its licensing.</span>
+          <p class="sublabel">What’s already onchain</p>
           <table class="assets">
             <tr><th>asset</th><th>issuer</th><th>type</th><th>access</th></tr>
             <tr><td class="a">USDC</td><td>Circle</td><td>stablecoin</td><td class="perm">permissionless</td></tr>
             <tr><td class="a">MXNe</td><td>Etherfuse</td><td>local stablecoin</td><td class="perm">permissionless</td></tr>
             <tr><td class="a">USDY</td><td>Ondo</td><td>tokenized treasuries</td><td class="gated">permissioned</td></tr>
-            <tr class="more"><td colspan="4">+ tokenized RWAs from Spiko, Centrifuge, Etherfuse … — all assets → /connect</td></tr>
+            <tr class="more"><td colspan="4">+ tokenized RWAs from Spiko, Centrifuge, Etherfuse … — full list → /connect</td></tr>
           </table>
+          <p class="legend"><b>permissionless</b> — anyone can hold and transact; integrate today, no issuer approval &nbsp;·&nbsp; <b>permissioned</b> — issuer-gated (KYC / allowlist) before users can hold it</p>
+
+          <p class="sublabel">How money moves in and out</p>
           <div class="cards c3">
-            <div class="card"><div class="k">No money layer</div><div class="t">Plug into rails, don’t rebuild</div><span class="slot sm"><b>✎ blurb</b> · ~15 words</span></div>
+            <div class="card"><div class="k">Anchor network</div><div class="t">One standard to integrate every ramp</div><span class="slot sm"><b>✎ blurb</b> · ~15 words</span></div>
             <div class="card"><div class="k">Local ramps</div><div class="t">Open ramps, market by market</div><span class="slot sm"><b>✎ blurb</b> · ~15 words</span></div>
             <div class="card"><div class="k">Cash access</div><div class="t">Cash in and out, at global scale</div><span class="slot sm"><b>✎ blurb</b> · ~15 words</span></div>
           </div>
-          <p class="note">Asset rows and their access status come from Stellar’s recognized-assets list, so this table stays accurate without copywriting. The full list lives on /connect.</p>
+          <p class="note">Two sub-groups: the assets (what money is already here) and the ramps (how it gets in and out). Asset rows and access status come from Stellar’s recognized-assets list, so the table stays accurate without copywriting; the “no money layer to rebuild” thesis belongs in connect.intro, not a card.</p>
         </section>
 
         <section id="grow" data-t="grow">
