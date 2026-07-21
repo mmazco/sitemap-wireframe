@@ -180,8 +180,12 @@
   .term .p{color:#8f8f8f; margin-right:7px;}
 
   /* tooltip */
-  .tip{position:absolute; top:10px; right:13px; color:#9a9a9a; cursor:help; font-size:13px; line-height:1;}
-  .tip:hover{color:var(--paper);}
+  .tip{
+    position:absolute; top:11px; right:13px; cursor:help;
+    width:18px; height:18px; border:1px solid var(--paper); border-radius:999px;
+    color:var(--paper); font-size:11px; line-height:1; font-weight:600;
+    display:flex; align-items:center; justify-content:center;
+  }
   .tip .tipbox{
     display:none; position:absolute; right:-4px; top:24px; width:360px;
     background:var(--paper); color:var(--ink); border:1px solid var(--ink); border-radius:3px;
@@ -339,7 +343,7 @@
             <div class="card"><div class="k">Agent-ready</div><div class="t">Built for AI-assisted development</div><span class="slot sm"><b>✎ blurb</b> · ~15 words</span></div>
           </div>
           <div class="term">
-            <span class="tip">ⓘ
+            <span class="tip">i
               <span class="tipbox"><b>What this block is.</b> A terminal — the three real CLI commands that take a dev from nothing to a deployed testnet contract. It’s not duplicating ⚙ For agents: the dropdown is <b>configuration</b> (wire your agent to Stellar before you start); the terminal is <b>demonstration</b> (proof that a human ships in three commands). Code above the fold is the fastest “this is for builders, and it’s easy” signal there is.</span>
             </span>
             <div><span class="p">$</span>stellar contract init my-app</div>
