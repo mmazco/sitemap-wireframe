@@ -1,6 +1,6 @@
 # sitemap-wireframe
 
-Lo-fi, black & white wireframe — a sitemap + homepage prototype exploration for a Stellar developer hub.
+Lo-fi, black & white wireframe — a sitemap + homepage prototype exploration for a Stellar developer frontend (stellar.org/developers)
 
 **View it:** open `stellar-developers-page-wireframe.html` in any browser. No build, no dependencies — one self-contained file.
 
