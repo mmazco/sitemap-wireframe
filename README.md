@@ -2,7 +2,9 @@
 
 Lo-fi, black & white wireframe — a sitemap + homepage prototype exploration for a Stellar developer frontend (stellar.org/developers)
 
-**View it:** open `stellar-developers-page-wireframe.html` in any browser. No build, no dependencies — one self-contained file.
+**View it live:** https://mmazco.github.io/sitemap-wireframe/
+
+Or download `stellar-developers-page-wireframe.html` and open it in any browser — no build, no dependencies, one self-contained file. (Opening the file on github.com shows the source code, not the page.)
 
 **How to read it**
 
