@@ -1,6 +1,6 @@
 # /developers sitemap-wireframe
 
-Lo-fi, black & white wireframe — a sitemap + homepage prototype exploration for a Stellar developer frontend (stellar.org/developers)
+A working Lo-fi, black & white wireframe — a sitemap + homepage prototype exploration for a Stellar developer frontend (stellar.org/developers)
 
 **View it live:** https://mmazco.github.io/developers-sitemap-wireframe/
 
@@ -13,4 +13,4 @@ Or download `stellar-developers-page-wireframe.html` and open it in any browser 
 - **Dashed boxes** = copy slots (copy needed). **`draft` pills** = placeholder copy, rewrite welcome. **Grey text** = data or product strings, not copywriting.
 - Hover the **ⓘ** on the terminal block for design rationale; click **⚙ For agents** in the nav wireframe to preview the dropdown.
 
-Structure and placeholder copy only — nothing here is final.
+Dummy copy for now.
