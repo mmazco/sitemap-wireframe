@@ -10,7 +10,7 @@
     --skel:#ededed; --skel2:#f4f4f4; --muted:#5f5f5f; --mut2:#8a8a8a;
     --sel:#111; --sel-ink:#fff;
     --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
-    --sb:264px;
+    --sb:276px;
   }
   *{box-sizing:border-box;}
   html,body{margin:0;height:100%;}
@@ -38,7 +38,7 @@
   /* ---- sidebar (file explorer) ---- */
   .side{
     width:var(--sb); flex:0 0 var(--sb); border-right:1px solid var(--line);
-    overflow-y:auto; padding:14px 0 24px;
+    overflow-y:auto; overflow-x:hidden; padding:14px 0 24px;
     display:flex; flex-direction:column;
   }
   .ghlink{
@@ -75,6 +75,7 @@
   }
   .pg .ic{color:var(--mut2); width:11px; text-align:center; flex:0 0 auto;}
   .pg .hm{color:var(--ink); font-size:13px; flex:0 0 auto; margin-right:-1px;}
+  .pg .nm{overflow:hidden; text-overflow:ellipsis; min-width:0;}
   .pg .tagp{
     margin-left:auto; font-size:10px; letter-spacing:.08em; text-transform:uppercase;
     color:var(--muted); font-weight:400; flex:0 0 auto;
